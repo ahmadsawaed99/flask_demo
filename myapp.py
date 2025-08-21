@@ -16,7 +16,7 @@ def main_error():
 def get_all_orders():
     return all_orders
 @app.route('/health', methods=['GET'])
-def get_all_orders():
+def get_health():
     return "the app is healthy "
 
 @app.route('/orders', methods=['POST'])
