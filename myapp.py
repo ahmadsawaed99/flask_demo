@@ -15,6 +15,9 @@ def main_error():
 @app.route('/orders', methods=['GET'])
 def get_all_orders():
     return all_orders
+@app.route('/health', methods=['GET'])
+def get_all_orders():
+    return "the app is healthy"
 
 @app.route('/orders', methods=['POST'])
 def add_new_order():     #  Details: "prod", "quantity", but no id

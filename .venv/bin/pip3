@@ -1,4 +1,4 @@
-#!/home/ahmad/Progs/flask_demo/.venv/bin/python3
+#!/Users/ahmadsawaed/flask_demo/.venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
