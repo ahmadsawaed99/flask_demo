@@ -37,8 +37,8 @@ def delete_order(id):
 
 @app.route('/orders/<id>', methods=['GET'])
 def get_specific_order(id):
-    pass
-
+    return all_orders[id]
+       
 app.run('0.0.0.0', 8080)
 
 
