@@ -16,7 +16,7 @@ jobs:
     
     - name: Build Docker image
       # github.sha is a built-in variable that contins the sha
-      run: docker build -t ahmadsawaed99/myapp:${{ github.sha }} .
+      run: docker build -t orders-api:${{ github.sha }} .
 
     
     - name: Start API container
